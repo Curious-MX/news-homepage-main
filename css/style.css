@@ -92,4 +92,33 @@ ul {
   padding: 1rem 2rem;
   cursor: pointer;
   text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+.blog-read button:hover {
+  background-color: var(--Very-dark-blue);
+}
+.new {
+  grid-column: 1 span;
+  grid-row: 1 span;
+  background-color: var(--Very-dark-blue);
+}
+.new-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  color: var(--Soft-orange);
+  font-size: 2rem;
+}
+.new-blogs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+.new-blog {
+  display: flex;
+  flex-direction: column;
 }
